@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="ParseResponse" version="SHA-512:bb650842fab68394f2f8fb75bf1986e72a6a594b840c30de0d41d1c2a7b27d7b61af3ebfa331a87d7f1b1198b35ff857738a20e7487f864831c8917c8d4e0698"/>
+        <VersionInfo resourceName="VerifyAccessToken" version="SHA-512:676763332dcb148bd241336a84e000c58307c875937d8938ef07aba2f3406bae386b25471adb684925b7c7dcdeaae86f80295cbba82c70db7e9ac53b5ac93662"/>
+        <VersionInfo resourceName="add-cors" version="SHA-512:52bbfc2e8b7fb33a67ceed04e5902c4c9cec39751102f5eb238416d948a69a9fc50d5f9e2af686e8ea54c21fb27e190c661012bc7cc76d59b33985855fcb4e32"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:bebd2e662024f852231175e62f9aa7367aec21aa9ab4541f19e85d7d0f5d8dabe69cd2aea0ef00676549e0e7867693a907b8f661a0a7a4773587fd135a3b5f09"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:6595defb9a0b6d7fce111a9fe959f5e8a7aa03ffb301373c4c4e20e814648b42d5858631e95e4a8d698b5fe2139390c252e9011d9f1be8c3a35de73c1c269f97"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0af53a54085ddc47051aaab1974b6454c7cbc830d42a2df8f6150994b95550e4f76d966ead0482271499cb9bf492a3f34ffd3fc9f40d978aab4492bc3a0ba4b5"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://ParseResponse.js" version="SHA-512:604961d099bcfae865b3676f2456217f0702fcfb167681b7b2f6d9aace84ccf717e401996d9ebb427d411531b55262822b402a66314e04fc30215ae3333c0d85"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:479c6853e2d9354fc4d1709323be2345d164cb808c79793b11e4880fa86275e58ba701bd1a5a2e42085e1f6da7001befb38f2696af0beb214da8be1bb068a7b3"/>
+    </TargetEndpoints>
+</Manifest>

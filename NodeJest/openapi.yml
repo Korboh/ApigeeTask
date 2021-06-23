@@ -1,0 +1,46 @@
+openapi: 3.0.1
+info:
+  title: Apigee Task
+  version: 1.0.0
+servers:
+- url: https://viktorschuhmann-ab4ec606-eval-test.apigee.net/
+paths:
+  /apigeetask:
+    get:
+      security:
+      - bearerAuth: []
+      - ApiKeyAuth: []
+      tags:
+      - pet
+      responses:
+        200:
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  city:
+                    type: string
+                    example: Frankfurt
+                  state:
+                    type: string
+                    example: Hesse
+                  givenName:
+                    type: string
+                    example: Viktor
+                  surName:
+                    type: string
+                    example: Schuhmann
+        401:
+          description: Invalid Apikey or Token
+          content: {}
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+    ApiKeyAuth:
+      type: apiKey
+      in: query
+      name: apikey

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="ApigeeTask">
+    <Basepaths>/apigeetask</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624436740007</CreatedAt>
+    <CreatedBy>viktor.schuhmann@live.de</CreatedBy>
+    <Description></Description>
+    <DisplayName>ApigeeTask</DisplayName>
+    <LastModifiedAt>1624436740007</LastModifiedAt>
+    <LastModifiedBy>viktor.schuhmann@live.de</LastModifiedBy>
+    <ManifestVersion>SHA-512:58ea0caf4298c30b36246013d51999c581abf36288a2ff386129ae88fba6eda20d383bf80552a740531df1e9ba109e39f1a2698ab0a42c6b8b3277bd3bfa18f4:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>ParseResponse</Policy>
+        <Policy>VerifyAccessToken</Policy>
+        <Policy>add-cors</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://ParseResponse.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,19 @@
+{
+  "name": "apigeetask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "jest": "^25.5.4",
+    "jest-openapi": "^0.13.0",
+    "supertest": "^6.1.3"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
